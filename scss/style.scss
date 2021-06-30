@@ -1,0 +1,846 @@
+@import 'vendors/_bootstrap.scss';
+
+/* Vars */
+$grn: #3aafa9;
+$darkcolor: #17252A;
+$white: #DCDCDC;
+$body-text: 'Amatic SC', cursive;
+$about-text: 'Raleway', sans-serif;
+$footer-text: 'Shadows Into Light Two', cursive;
+
+html,body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+
+/* Header */
+header{
+  height: 100px;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      font-size: 30px;
+      &:hover{
+        text-decoration: underline $grn;
+      }
+    }
+
+    #header-div{
+      margin-left: 25px;
+    }
+
+    #nav-name:hover{
+      text-decoration: none;
+    }
+
+    .name{
+      color: $grn;
+      font-size: 60px;
+      text-shadow: 1px 2px 2px grey;
+    }
+
+    #nav-menu{
+      display: flex;
+      align-items: center;
+    }
+
+    .desktop-nav{
+      display: flex;
+      justify-content: flex-end;
+      padding-top: 5%;
+
+      li{
+        color: $white;
+        font-family: $body-text;
+        font-size: 28px;
+        display: inline;
+        margin-right: 50px;
+
+        &:last-child{
+          margin-right: 80px;
+        }
+      }
+    }
+
+    .mobile-menu-div, #icon-nav, #menu-icon{
+      display: none;
+    }
+  }
+}
+
+.mob-only{
+  display: none;
+  justify-content: center;
+}
+
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+#headshot{
+  margin-left: 30px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 8px $darkcolor;
+}
+
+.flex-container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill-h2{
+  text-align: center;
+  color: $white;
+  padding-top: 100px;
+}
+
+.flex-container3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-div{
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.skill-h4{
+  font-size: 50px;
+}
+
+.lang{
+  font-family: $body-text;
+  font-size: 40px;
+  padding-bottom: 1%;
+}
+
+.flex-container4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.location{
+  margin-right: 10%;
+}
+
+#cloud {
+  margin-left: 15%;
+  width: 80px;
+  height: 75px;
+  display: block;
+}
+
+.contact1{
+  margin-right: 10%;
+  text-align: center;
+}
+
+#plane, #linkedin {
+  font-size: 50px;
+}
+
+.contact2{
+  text-align: center;
+}
+
+.footer-txt{
+  text-align: center;
+}
+
+
+/* PROJECTS PAGE */
+
+.flex{
+  display: flex;
+}
+
+.welcome{
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  text-align: center;
+  padding: 0 30px;
+
+  h3{
+    font-size: 40px;
+    font-family: $body-text;
+    color: $grn;
+  }
+
+  #welcome-text{
+    font-size: 40px;
+  }
+}
+
+.flex-item1{
+  justify-content: space-around;
+  margin-top: 1%;
+}
+
+.flex-child{
+  margin-left: 7%;
+  margin-right: 3%;
+  width: 30%;
+}
+
+.project{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.proj-img{
+  width: 600px;
+  margin-bottom: 5%;
+  flex-direction: row;
+}
+
+.tih-img{
+  width: 250px;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+a{
+  color: $white;
+  &:hover{
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 150px;
+}
+
+h3, h4, h5, p{
+  font-family: $body-text;
+}
+
+h3{
+  color: $white;
+  font-size: 40px;
+}
+
+
+h4, p{
+  font-size: 30px;
+  color: $white;
+}
+
+h5{
+  font-size: 20px;
+  color: $white;
+}
+
+hr{
+  border: 1px solid $grn;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home{
+  margin-top: 2%;
+}
+
+.about-p2{
+  font-family: 'Raleway', sans-serif;
+  color: $white;
+  font-size: 18px;
+  margin-top: 2%;
+  width: 80%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+footer{
+  background: $darkcolor;
+  margin: 20px 0 25px 0;
+  width: 100%;
+}
+
+.about{
+  text-align: center;
+  padding-top: 5%;
+  color: $white;
+}
+
+.bground-grn{
+  background-color: $grn;
+}
+
+.bground-dark{
+  background-color: $darkcolor;
+}
+
+.center-btn{
+  width: 100%;
+  text-align: center;
+}
+
+.container{
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.github-link{
+  color: $grn;
+  justify-content: center;
+}
+
+.old-intro-h4{
+  font-family: $about-text;
+  color: $white;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+#hotel{
+  width: 200px;
+  height: 400px;
+}
+
+#proj-btn{
+  font-family: 'Amatic SC', cursive;
+  border: 1px solid;
+  font-size: 27px;
+  margin: 30px 0 100px 0;
+  width: 450px;
+  box-shadow: 3px 4px $white;
+  &:hover{
+    background-color: $grn;
+    box-shadow: 3px 5px $darkcolor;
+  }
+}
+
+.flex-footer-trial{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-form-trial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/*
+**********************
+MEDIA SCREEN: TABLETS
+**********************
+*/
+
+
+@media screen and (max-width: 768px) {
+/* start of tablet-smaller screen styles */
+  header{
+    nav{
+      .desktop-nav, #nav-menu{
+        display: none;
+      }
+
+      .mob-only{
+        display: block;
+        justify-content: center;
+      }
+
+      #menu-icon{
+        display: block;
+        color: $white;
+        position: absolute;
+        z-index: 1000;
+        top: 35px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+      }
+
+      .fa-2x{
+        font-size: 40px;
+      }
+
+      #icon-nav{
+        display: none;
+        padding-inline-start: 0px;
+        position: absolute;
+        top: 75px;
+        right: 35px;
+        background-color: $darkcolor;
+        text-align: center;
+        width: 30%; 
+        border: 2px solid $white;
+
+        li{
+          font-family: $about-text;
+          margin-left: none;
+          margin-bottom: 6px;
+          padding-left: none; 
+        }      
+
+        a{
+          font-size: 22px;
+        }
+      }
+
+      .mobile-menu-div{
+        display: none;
+      }
+    }
+  }
+
+  .flex-container{
+    flex-direction: column;
+    height: 600px;
+    justify-content: flex-start;
+  }
+
+  .old-intro-h4{
+    padding-bottom: 30px;
+  }
+
+  .flex-container3{
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .skill-div{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+    align-items: none;
+    justify-content: space-between;
+  }
+
+  #proj-btn{
+    margin-bottom: 50px;
+  }
+
+  .flex-container4{
+    margin-top: 0px; 
+    padding-bottom: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .location{
+    margin-right: 0%;
+  }
+
+  .location .location-h3, .contact1 .location-h3, .contact2 .location-h3{
+    margin: 10px 0 10px;
+    padding: 0;
+  }
+
+  #cloud {
+    width: 80px;
+    height: 75px;
+    display: inline;
+  }
+
+  .contact1{
+    margin-right: 0%;
+  }
+
+  #plane, #linkedin {
+    font-size: 40px;
+  }
+
+  .footer-txt{
+    font-size: 36px;
+  }
+
+  .flex-item1{
+    margin-top: 2%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-child{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  #tih-home{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+
+/*index.html page*/
+
+  h2{
+    font-size: 60px;
+    margin-left: 4.25%;
+    padding-top: 12%;
+    color: $darkcolor;
+  }
+
+  h3{
+    padding-left: 35px;
+  }
+
+  h4{
+    font-size: 15px;
+  }
+
+  header{
+    nav {
+      #header-div{
+        width: 350px;
+        padding-top: 15px;
+      }
+
+      .name{
+        font-size: 40px;
+      }
+
+      h3{
+        padding-left: 0;
+      }
+
+      a{
+        font-size: 16px;
+        
+        &:hover{
+          text-decoration: underline $grn;
+        }
+      }
+
+      #icon-nav{
+        padding-inline-start: 20px;
+        width: 40%; 
+      }
+
+      .mobile-menu-div{
+        display: none;
+      }
+    
+      .desktop-nav, #nav-menu{
+        display: none;
+      }
+
+      #menu-icon{
+        display: block;
+        color: $white;
+        position: absolute;
+        z-index: 1000;
+        top: 40px;
+        right: 30px;
+        cursor: pointer;
+      }
+
+      .fa-2x{
+        font-size: 30px;
+      }
+
+      .icon-item{
+        font-family: $about-text;
+        color: $white;
+        text-align: center;
+        padding-right: 30px;
+        padding-top: 5px;
+      }
+
+      .nav-menu-div{
+        background-color: $darkcolor;
+        position: relative;
+        left: 160px;
+        float: right;
+        text-align: center;
+        border: 2px solid $grn;
+      }
+    }
+  }
+
+
+  p, .about-p{
+    font-size: 12px;
+  }
+
+  .skill{
+    font-size: 35px;
+    display: block;
+  }
+
+  .col-4{
+    display: block;
+  }
+
+  
+
+  /*project page - MOBILE DEVICES*/
+  
+  .welcome{
+    margin: 20px 0;
+    width: 90%;
+  }
+
+  #welcome-text{
+    margin-left: 5%;
+    font-size: 16px;
+  }
+
+  hr{
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .project{
+    display: block;
+    margin: 0 0 20px 0;
+    text-align: center;
+    width: 90%;
+  }
+
+
+  .flex-child{
+    font-size: 24px;
+  }
+
+  .mob-only{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+  }
+
+  .proj-img{
+    width: 90%;
+    display: block;
+  }
+
+  .tih-img{
+    width: 90%;
+    margin-bottom: 5%;
+  }
+
+  #tih-home, .desk-only{
+    display: none;
+  }
+
+  #proj-btn{
+    margin: 30px 0 5px 0;
+    width: 200px;
+  }
+
+  .last-p{
+    width: 85%;
+    text-align: center;
+  }
+
+  .old-intro-h4{
+    padding-bottom: 10px;
+  }
+
+  .footer-ul{
+    text-align: center;
+  }
+
+  .nav-item-footer{
+    padding-right: 18%;
+  }
+
+  .flex-container{
+    flex-direction: column;
+    height: 375px;
+    justify-content: flex-start;
+  }
+
+  #headshot{
+    margin-left: 0px;
+    height: 200px;
+  }
+  
+  .about{
+    padding-top: 0;
+  }
+
+  #about-h2{
+    color: $white;
+  }
+
+  .flex-container2{
+    flex-direction: column;
+    height: 710px;
+  }
+
+  footer h4{
+    font-size: 24px;
+  }
+
+  .skill-h2{
+    padding-top: 30px;
+  }
+
+  .skill-div{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+    align-items: none;
+    justify-content: space-between;
+  }
+
+  .skill-h4{
+    font-size: 50px;
+  }
+
+  .lang{
+    font-family: $body-text;
+    font-size: 24px;
+    padding-bottom: 1%;
+  }
+
+  .flex-container4{
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .location{
+    margin-right: 0%;
+  }
+
+  .location .location-h3, .contact1 .location-h3, .contact2 .location-h3{
+    margin: 10px 0 10px;
+    padding: 0;
+  }
+
+  #cloud {
+    width: 80px;
+    height: 75px;
+    display: inline;
+  }
+
+  .contact1{
+    margin-right: 0%;
+  }
+
+  #plane, #linkedin {
+    font-size: 40px;
+  }
+
+}
+
+@media screen and (max-width: 428px){
+  header{
+    nav{
+      .name{
+        font-size: 34px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+**********************
+CHECK IF USED ANYWHERE 
+**********************
+*/
+.last-p, .footer-ul-main{
+  width: 100%;
+  text-align: center;
+}
+
+.nav-item-footer{
+  display: inline;
+  font-size: 22px;
+  color: $white;
+  padding-right: 5%;
+}
+
+footer .col-md{
+  text-align: center;
+  margin-left: 2%;
+}
+
+.about-p{
+  font-family: 'Raleway', sans-serif;
+  color: $white;
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+.col h4{
+  padding-left: 10%;
+} 
+
+.intro-h2{
+  margin-left: 4.25%;
+  padding-top: 12%;
+  color: $darkcolor;
+}
+
+.intro-h4{
+  font-family: $about-text;
+  color: $white;
+  margin-left: 5%;
+}
+
+.intro-h4-pad{
+  font-family: $about-text;
+  color: $white;
+  margin-left: 5%;
+  padding-bottom: 4%;
+}
+
+.pad-left{
+  padding-left: 8%;
+}
+
+.progress-bar{
+  background-color: $darkcolor;
+}
+
+footer .col-md{
+  text-align: none;
+  margin-left: 0;
+}
+/*
+
+
+*/
+/* END OF CHECK IF USED SECTION */
+
