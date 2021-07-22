@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Icon & Title-->
+    <link rel="icon" href="img/b-icon1.png" type="image/png">
+    <title>Blake Chambliss | Blog</title>
+
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font Awesome script for icons-->
+    <script src="https://kit.fontawesome.com/e0d8da994f.js"></script>
+
+    <link href="scss/style.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body class="bground-dark">
+    <header>
+        <nav>
+
+            <div id="header-div">
+                <h3><a href="/" id="nav-name"><span class="name">Blake Chambliss</span></a></h3>
+            </div>
+
+            <div id="nav-menu">
+                <ul class="desktop-nav">
+                    <li class="nav-item"><a href="/">HOME</a></li>
+                    <li class="nav-item"><a href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
+                </ul>
+            </div>
+
+            <div class="mob-only">
+                <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+                <div class="mobile-menu-div">
+                    <ul id="icon-nav">
+                        <li class="icon-item"><a href="/">HOME</a></li>
+                        <li class="icon-item"><a href="#about">ABOUT</a></li>
+                        <li class="icon-item"><a href="projects.html">PROJECTS</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="start_blog">
+        <div class="card w-75">
+            <div class="card-body">
+                <h4 class="card-title bground-dark">Effective Use of VS Code</h4>
+                <p class="card-text">Alright, this may seem like a dumb post, but I never took the time to really learn
+                    some shortcuts with VS Code before starting my software engineering job. Doing these will not only
+                    save you a lot of time coding, but will also make pair programming less awkward and time-consuming,
+                    especially if you’re like me and the only other person on your tech team is your supervisor.</p>
+                <p class="card-text">Here are some of the commands I’ve found the most useful. Feel free to review more
+                    by navigating to: File > Preferences > Keyboard Shortcuts.</p>
+                <p class="card-text">These shortcuts are for Mac (but probably similar for Windows too!):
+                    <br />Cmd + T: to search for a file within huge code bases
+                    <br />Cmd + D: selects the next instance of the selection (additionally you can update the selection
+                    all
+                    at once!)
+                    <br />Cmd + F: to search for a word in the current file
+                    <br />Cmd + Shift + F: to search a word in all the files in code base
+                    <br />Cmd + L: to select current line
+                    <br />Shift + Alt + up/down arrow: copy line above/below
+                    <br />Option + Up: move line up
+                    <br />Option + Down: move line down
+                    <br />Cmd + N: Creates a new file
+                    <br />Cmd + O: Open file prompt
+                    <br />Cmd + S: Saves current file
+                </p>
+                <p class="card-text">Additionally, here’s some really good extensions I’ve started using that have been
+                    super helpful:
+                    <br /><a
+                        href="https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate">HTML
+                        boilerplate</a>: if you use HTML at all, get this extension. It creates all those forgetful HTML
+                    pieces when you create a new HTML file.
+                    <br /><a href="https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools">SQLTools</a>: A
+                    SQL formatter. I use SQL at work and this is a great tool to format your file.
+                    Install this and when you write some SQL or use VS Code to visually edit your SQL code. On save the
+                    file should format to provide visually appealing SQL code.
+                    <br /><a
+                        href="https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client">PHP
+                        Intelephense</a>: This is another formatter that’s great as I use PHP at work as well. It
+                    provides code completion, code folding (Premium edition), and Detailed hover with links to official
+                    PHP documentation to name a few.
+                </p>
+                <p class="card-text">
+                    Finally, another helpful tip is the ‘Outline’ tool at the bottom left of the VS Code window. This is
+                    really handy if you’re trying to wade through a file with large amounts of code. This tool will help
+                    guide you to where variables and functions are defined within the file. The tree of items can also
+                    be sorted by position within the file they are defined, name, or type.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core, jQuery, scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -347,6 +347,31 @@ footer{
   justify-content: center;
 }
 
+.start_blog{
+  display: flex;
+  justify-content: center;
+
+  .card {
+    background-color: $grn;
+    text-align: center;
+    border-radius: 5px;
+
+    .card-title {
+      font-size: 40px;
+    }
+
+    .card-text {
+      font-size: 24px;
+
+      a {
+        color: $darkcolor;
+        font-weight: 900;
+      }
+    }
+  }
+}
+
+
 
 /*
 **********************

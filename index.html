@@ -1,151 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 
- <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Icon & Title-->    
-    <link rel="icon" href="img/b-icon1.png" type="image/png">
-    <title>Blake Chambliss | Web Developer</title>
-    
-    <!--Bootstrap link-->    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Icon & Title-->
+  <link rel="icon" href="img/b-icon1.png" type="image/png">
+  <title>Blake Chambliss | Web Developer</title>
 
-    <!--Font Awesome script for icons-->    
-    <script src="https://kit.fontawesome.com/e0d8da994f.js"></script>
+  <!--Bootstrap link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="css/style.css" rel="stylesheet">
+  <!--Font Awesome script for icons-->
+  <script src="https://kit.fontawesome.com/e0d8da994f.js"></script>
 
-    <!--Fonts-->    
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-  </head>
+  <link href="scss/style.css" rel="stylesheet">
 
-  <body class="bground-dark">
-    <header>
-      <nav>
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
 
-        <div id="header-div">
-          <h3><a href="/" id="nav-name"><span class="name">Blake Chambliss</span></a></h3>
-        </div>
+<body class="bground-dark">
+  <header>
+    <nav>
 
-        <div id="nav-menu">
-          <ul class="desktop-nav">
-            <li class="nav-item"><a href="/">HOME</a></li>
-            <li class="nav-item"><a href="#about">ABOUT</a></li>
-            <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
-          </ul>
-        </div>
-
-        <div class="mob-only">
-          <i class="fas fa-bars fa-2x" id="menu-icon"></i>
-          <div class="mobile-menu-div">
-            <ul id="icon-nav">
-              <li class="icon-item"><a href="/">HOME</a></li>
-              <li class="icon-item"><a href="#about">ABOUT</a></li>
-              <li class="icon-item"><a href="projects.html">PROJECTS</a></li>
-            </ul>
-          </div>
-        </div> 
-
-      </nav>
-    </header>
-
-    <section class="bground-grn flex-container">
-      <div class="hello-div">
-        <h2 class="about">HELLO</h2>
-        <h4 class="old-intro-h4">I'm Blake! A Web Developer from Chicago.</h4>
+      <div id="header-div">
+        <h3><a href="/" id="nav-name"><span class="name">Blake Chambliss</span></a></h3>
       </div>
 
-      <div>
-        <img src='./img/headshot.png' alt='headshot' id='headshot' />
+      <div id="nav-menu">
+        <ul class="desktop-nav">
+          <li class="nav-item"><a href="/">HOME</a></li>
+          <li class="nav-item"><a href="#about">ABOUT</a></li>
+          <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
+        </ul>
       </div>
-    </section>
 
-    <section class="bground-dark">
-      <div class="about flex-container2" id="about">
-        <h2 id="about-h2">Who is <br>this guy?</h2>
-        <p class="about-p2">I'm a Chicago-based web developer, but more importantly, a life-long learner. Originally from Florida, I found my way to Chicago after completing a master's degree in education. After a few years working in higher education,
-           I discovered a desire to code. I completed a web development program to
-           learn skills related to website development and since then I can't get
-           enough of the programming world. <br><br>Since completing the program, I
-          began working as a freelance web developer. If you are looking
-          to build (or revamp) your brand, business, or "side-hustle," through a website, and/or
-          blog (or even another project) let me know - I'd love to help!</p>
-      </div>
-    </section>
-
-    <section class="bground-grn">
-      <h2 class="skill-h2" id="skills">What can <br>he do?</h2>
-      <div class="flex-container3">
-        <div class="skill-div">
-          <h4 class="skill-h4">Languages</h4>
-          <ul>
-            <li class="lang"><i class="fab fa-html5"></i> HTML</li>
-            <li class="lang"><i class="fab fa-css3-alt"></i> CSS</li>
-            <li class="lang"><i class="fab fa-js-square"></i> JavaScript</li>
-            <li class="lang"><i class="fab fa-java"></i> Java</li>
-          </ul>
-        </div>
-
-        <div class="skill-div">
-          <h4 class="skill-h4">Database & <br> Backend</h4>
-          <ul>
-            <li class="lang"><i class="fas fa-database"></i> SQL</li>
-            <li class="lang"><i class="fas fa-database"></i> MongoDB</li>
-          </ul>
-        </div>
-
-        <div class="skill-div">
-          <h4 class="skill-h4">Frameworks & <br> Libraries</h4>
-          <ul>
-            <li class="lang"><i class="fab fa-js-square"></i> jQuery</li>
-            <li class="lang"><i class="fab fa-bootstrap"></i> Bootstrap</li>
-            <li class="lang"><i class="fab fa-react"></i> React</li>
+      <div class="mob-only">
+        <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+        <div class="mobile-menu-div">
+          <ul id="icon-nav">
+            <li class="icon-item"><a href="/">HOME</a></li>
+            <li class="icon-item"><a href="#about">ABOUT</a></li>
+            <li class="icon-item"><a href="projects.html">PROJECTS</a></li>
           </ul>
         </div>
       </div>
 
-      <div>
-        <div class="center-btn">
-      	 <button type="button" class="btn btn-dark btn-lg" id="proj-btn"><a href="projects.html">See My Projects</a></button>
-        </div>
+    </nav>
+  </header>
+
+  <section class="bground-grn flex-container">
+    <div class="hello-div">
+      <h2 class="about">HELLO</h2>
+      <h4 class="old-intro-h4">I'm Blake! A Web Developer from Chicago.</h4>
+    </div>
+
+    <div>
+      <img src='./img/headshot.png' alt='headshot' id='headshot' />
+    </div>
+  </section>
+
+  <section class="bground-dark">
+    <div class="about flex-container2" id="about">
+      <h2 id="about-h2">Who is <br>this guy?</h2>
+      <p class="about-p2">I'm a Chicago-based web developer, but more importantly, a life-long learner. Originally from
+        Florida, I found my way to Chicago after completing a master's degree in education. After a few years working in
+        higher education,
+        I discovered a desire to code. I completed a web development program to
+        learn skills related to website development and since then I can't get
+        enough of the programming world. <br><br>Since completing the program, I
+        began working as a freelance web developer. If you are looking
+        to build (or revamp) your brand, business, or "side-hustle," through a website, and/or
+        blog (or even another project) let me know - I'd love to help!</p>
+    </div>
+  </section>
+
+  <section class="bground-grn">
+    <h2 class="skill-h2" id="skills">What can <br>he do?</h2>
+    <div class="flex-container3">
+      <div class="skill-div">
+        <h4 class="skill-h4">Languages</h4>
+        <ul>
+          <li class="lang"><i class="fab fa-html5"></i> HTML</li>
+          <li class="lang"><i class="fab fa-css3-alt"></i> CSS</li>
+          <li class="lang"><i class="fab fa-js-square"></i> JavaScript</li>
+          <li class="lang"><i class="fab fa-java"></i> Java</li>
+        </ul>
       </div>
-      
-      <div class="flex-container4">
-          <div class="location">
-            <img src="./img/cloud-gate.png" id="cloud" alt="Cloud Gate" />
-            <h3 class="location-h3">Chicago, IL</h3>
-          </div>
 
-          <div class="contact1">
-            <span id="plane">
-              <i class="far fa-paper-plane"></i>
-            </span>
-            <h3 class="location-h3">MBCHAMBLISS@gmail.com</h3>
-          </div>
-
-          <div class="contact2">
-            <span id="linkedin">
-              <i class="fab fa-linkedin-in"></i>
-            </span>
-            <h3 class="location-h3"><a href="https://www.linkedin.com/in/bchambliss/" target="_blank">LinkedIn</a></h3>
-          </div>
+      <div class="skill-div">
+        <h4 class="skill-h4">Database & <br> Backend</h4>
+        <ul>
+          <li class="lang"><i class="fas fa-database"></i> SQL</li>
+          <li class="lang"><i class="fas fa-database"></i> MongoDB</li>
+        </ul>
       </div>
-    </section>
 
-    <footer>
-        <h4 class="footer-txt">Blake Chambliss</h4>
-        <h4 class="footer-txt">Web & Mobile App Developer</h4>
-    </footer>
+      <div class="skill-div">
+        <h4 class="skill-h4">Frameworks & <br> Libraries</h4>
+        <ul>
+          <li class="lang"><i class="fab fa-js-square"></i> jQuery</li>
+          <li class="lang"><i class="fab fa-bootstrap"></i> Bootstrap</li>
+          <li class="lang"><i class="fab fa-react"></i> React</li>
+        </ul>
+      </div>
+    </div>
 
-    <!-- Bootstrap core, jQuery, scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    <div>
+      <div class="center-btn">
+        <button type="button" class="btn btn-dark btn-lg" id="proj-btn"><a href="projects.html">See My
+            Projects</a></button>
+      </div>
+    </div>
+
+    <div class="flex-container4">
+      <div class="location">
+        <img src="./img/cloud-gate.png" id="cloud" alt="Cloud Gate" />
+        <h3 class="location-h3">Chicago, IL</h3>
+      </div>
+
+      <div class="contact1">
+        <span id="plane">
+          <i class="far fa-paper-plane"></i>
+        </span>
+        <h3 class="location-h3">MBCHAMBLISS@gmail.com</h3>
+      </div>
+
+      <div class="contact2">
+        <span id="linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </span>
+        <h3 class="location-h3"><a href="https://www.linkedin.com/in/bchambliss/" target="_blank">LinkedIn</a></h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h4 class="footer-txt">Blake Chambliss</h4>
+    <h4 class="footer-txt">Web & Mobile App Developer</h4>
+  </footer>
+
+  <!-- Bootstrap core, jQuery, scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
