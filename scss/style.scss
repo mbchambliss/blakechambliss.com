@@ -25,7 +25,6 @@ header{
     justify-content: space-between;
 
     a {
-      font-size: 30px;
       &:hover{
         text-decoration: underline $grn;
       }
@@ -57,8 +56,7 @@ header{
 
       li{
         color: $white;
-        font-family: $body-text;
-        font-size: 28px;
+        font-size: 20px;
         display: inline;
         margin-right: 50px;
 
@@ -121,6 +119,16 @@ header{
 
 .skill-h4{
   font-size: 50px;
+}
+
+h4.blog-title{
+  font-family: 'Oswald', sans-serif;
+}
+
+p.blog-p{
+  font-family: 'Oswald', sans-serif;
+  margin: 5% 0;
+  padding: 0 3%;
 }
 
 .lang{
@@ -598,6 +606,20 @@ MEDIA SCREEN: TABLETS
         text-align: center;
         padding-right: 30px;
         padding-top: 5px;
+      }
+
+      .blog-icon-item{
+        font-family: 'Oswald', sans-serif; 
+        font-size: 14px;
+        color: $white;
+        text-align: center;
+        padding-right: 30px;
+        padding-top: 5px;
+      }
+
+      .blog-nav-item{
+        font-family: 'Oswald', sans-serif; 
+        font-size: 14px;
       }
 
       .nav-menu-div{
