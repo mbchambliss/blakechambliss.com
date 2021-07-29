@@ -7395,10 +7395,6 @@ header nav {
           justify-content: space-between;
 }
 
-header nav a {
-  font-size: 30px;
-}
-
 header nav a:hover {
   -webkit-text-decoration: underline #3aafa9;
           text-decoration: underline #3aafa9;
@@ -7439,8 +7435,7 @@ header nav .desktop-nav {
 
 header nav .desktop-nav li {
   color: #DCDCDC;
-  font-family: "Amatic SC", cursive;
-  font-size: 28px;
+  font-size: 20px;
   display: inline;
   margin-right: 50px;
 }
@@ -7527,6 +7522,16 @@ header nav .mobile-menu-div, header nav #icon-nav, header nav #menu-icon {
 
 .skill-h4 {
   font-size: 50px;
+}
+
+h4.blog-title {
+  font-family: 'Oswald', sans-serif;
+}
+
+p.blog-p {
+  font-family: 'Oswald', sans-serif;
+  margin: 5% 0;
+  padding: 0 3%;
 }
 
 .lang {
@@ -8032,6 +8037,18 @@ MEDIA SCREEN: TABLETS
     text-align: center;
     padding-right: 30px;
     padding-top: 5px;
+  }
+  header nav .blog-icon-item {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #DCDCDC;
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 5px;
+  }
+  header nav .blog-nav-item {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
   }
   header nav .nav-menu-div {
     background-color: #17252A;
