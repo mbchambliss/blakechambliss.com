@@ -1,0 +1,2 @@
+To start sass compilations:
+Click 'Watch Sass' at the bottom

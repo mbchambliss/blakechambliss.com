@@ -7492,12 +7492,6 @@ header nav .mobile-menu-div, header nav #icon-nav, header nav #menu-icon {
           flex-direction: column;
 }
 
-.skill-h2 {
-  text-align: center;
-  color: #DCDCDC;
-  padding-top: 100px;
-}
-
 .flex-container3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7510,6 +7504,12 @@ header nav .mobile-menu-div, header nav #icon-nav, header nav #menu-icon {
           align-items: center;
 }
 
+.skill-h2 {
+  text-align: center;
+  color: #DCDCDC;
+  padding-top: 100px;
+}
+
 .skill-div {
   width: 30%;
   display: -webkit-box;
@@ -7518,9 +7518,10 @@ header nav .mobile-menu-div, header nav #icon-nav, header nav #menu-icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 2px solid #000;
 }
 
-.skill-h4 {
+.skill-div .skill-h4 {
   font-size: 50px;
 }
 
@@ -7708,6 +7709,7 @@ footer {
 
 .about {
   text-align: center;
+  text-shadow: 2px 2px #000;
   padding-top: 5%;
   color: #DCDCDC;
 }
@@ -8277,4 +8279,314 @@ footer .col-md {
 
 */
 /* END OF CHECK IF USED SECTION */
+#black-back {
+  background-color: #000;
+}
+
+#black-back #main-div, #black-back .about-text, #black-back #footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#black-back #main-div span {
+  color: #F48FB1;
+  font-size: 70px;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 4px;
+  word-spacing: 12px;
+  display: none;
+}
+
+#black-back #contact-qm {
+  margin-top: 2vh;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#black-back #contact-qm p {
+  font-family: 'Acme', sans-serif;
+  color: #F48FB1;
+}
+
+#black-back #contact-qm #apple-logo-footer {
+  width: 200px;
+}
+
+#black-back .queer-text {
+  width: 50%;
+  max-width: 1000px;
+  margin-top: 8vh;
+}
+
+#black-back .queer-text p {
+  color: #FFF;
+  background-color: #F4F5F0;
+  background-image: url("../img/gradient.png");
+  padding: 3% 5%;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+#black-back .box-shadow {
+  border: 1px solid #FCEDFC;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 6px 2px #FCEDFC;
+          box-shadow: 0 0 6px 2px #FCEDFC;
+}
+
+#black-back #about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5%;
+}
+
+#black-back #apple-logo-container-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#black-back #apple-logo-container-top #apple-logo {
+  width: 200px;
+}
+
+#black-back .activist-photo {
+  width: 350px;
+}
+
+#black-back .activist-photo:hover {
+  opacity: 0.4;
+}
+
+#black-back #activist-container {
+  position: relative;
+}
+
+#black-back #activist-container div {
+  position: relative;
+}
+
+#black-back #activist-container div:hover .photo-overlay {
+  opacity: 1;
+}
+
+#black-back #activist-container div span {
+  color: #FFF;
+  font-size: 16px;
+}
+
+#black-back #activist-container .photo-overlay {
+  position: absolute;
+  top: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#black-back .screenshots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+}
+
+#black-back .screenshots #events-shot1, #black-back .screenshots #events-shot2 {
+  width: 400px;
+}
+
+#black-back #qm-logo {
+  width: 450px;
+}
+
+#black-back #github, #black-back #email {
+  width: 80px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+#black-back .recommend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  padding: 0 40px;
+  text-align: center;
+}
+
+#black-back .recommend h1 {
+  font-family: 'Acme', sans-serif;
+  color: #FFF;
+}
+
+#black-back #under-logo-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#black-back #under-logo-name span {
+  color: #F48FB1;
+  font-size: 40px;
+  font-family: 'Acme', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  #black-back #contact-qm {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #black-back #under-logo-name {
+    display: none;
+  }
+  #black-back #main-div span {
+    display: inline;
+  }
+  #black-back .screenshots {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #black-back .queer-text {
+    margin-top: 4vh;
+  }
+  #black-back .activist-photo {
+    width: 20vw;
+  }
+  #black-back .screenshots {
+    margin-top: 5vh;
+  }
+  #black-back .screenshots #events-shot1, #black-back .screenshots #events-shot2 {
+    width: 26vw;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  #black-back #about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #black-back #about .queer-text {
+    width: 100%;
+    max-width: 1000px;
+  }
+  #black-back #about #activist-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 5vh;
+    margin-top: 6vh;
+  }
+}
+
+@media screen and (min-width: 1701px) {
+  #black-back #activist-container {
+    position: relative;
+  }
+  #black-back #activist-container .activist-photo {
+    width: 300px;
+  }
+  #black-back #activist-container div#alan-photo {
+    position: absolute;
+    top: 60px;
+    right: 422px;
+  }
+  #black-back #activist-container div#bayard-photo {
+    position: absolute;
+    top: 350px;
+    right: 32px;
+  }
+  #black-back #activist-container div#marsha-photo {
+    position: absolute;
+    top: 0;
+    right: 32px;
+  }
+  #black-back #events-shot1, #black-back #events-shot2 {
+    width: 250px;
+  }
+  #black-back .screenshots {
+    margin-top: 14vh;
+  }
+}
+
+@media screen and (max-width: 1875px) {
+  #black-back #main-div #qm-logo {
+    width: 350px;
+  }
+  #black-back #main-div span {
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+  }
+  #black-back .queer-text {
+    width: 50%;
+    max-width: 800px;
+  }
+  #black-back .queer-text p {
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
