@@ -6,7 +6,6 @@ $darkcolor: #17252A;
 $white: #DCDCDC;
 $body-text: 'Amatic SC', cursive;
 $about-text: 'Raleway', sans-serif;
-$footer-text: 'Shadows Into Light Two', cursive;
 
 html,body{
   width: 100%;
@@ -77,6 +76,9 @@ header{
   justify-content: center;
 }
 
+#about-h2{
+  text-shadow: 2px 2px #3aafa9;
+}
 
 .flex-container{
   display: flex;
@@ -99,29 +101,6 @@ header{
   flex-direction: column;
 }
 
-.flex-container3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.skill-h2{
-  text-align: center;
-  color: $white;
-  padding-top: 100px;
-}
-
-.skill-div{
-  width: 30%;
-  display: flex;
-  align-items: center;
-  border: 2px solid #000;
-
-  .skill-h4{
-    font-size: 50px;
-  }
-}
-
 
 h4.blog-title{
   font-family: 'Oswald', sans-serif;
@@ -131,12 +110,6 @@ p.blog-p{
   font-family: 'Oswald', sans-serif;
   margin: 5% 0;
   padding: 0 3%;
-}
-
-.lang{
-  font-family: $body-text;
-  font-size: 40px;
-  padding-bottom: 1%;
 }
 
 .flex-container4{
@@ -172,6 +145,51 @@ p.blog-p{
 
 .footer-txt{
   text-align: center;
+  font-family: $about-text;
+  font-size: 20px;
+}
+
+.skills-container{
+
+  h2{
+    padding-top: 30px;
+  }
+  
+  #skills-title-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px #FFF;
+  }
+  
+  .flex-container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+
+    h4{
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    ul{
+      padding-inline-start: 0px !important;
+    }
+  }
+  
+  .lang{
+    font-family: $body-text;
+    font-size: 40px;
+    padding-bottom: 1%;
+  }
 }
 
 
@@ -334,9 +352,9 @@ footer{
 }
 
 #proj-btn{
-  font-family: 'Amatic SC', cursive;
+  font-family: $about-text;
   border: 1px solid;
-  font-size: 27px;
+  font-size: 20px;
   margin: 30px 0 100px 0;
   width: 450px;
   box-shadow: 3px 4px $white;
@@ -753,20 +771,30 @@ MEDIA SCREEN: TABLETS
     font-size: 24px;
   }
 
-  .skill-h2{
-    padding-top: 30px;
-  }
+  .skills-container{
+    h2{
+      padding-top: 30px;
+    }
+    
+    h4{
+      font-size: 50px;
+    }
+    
+    .flex-container3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .skill-div{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 25px;
+      align-items: none;
+      justify-content: space-between;
+    }   
+    
 
-  .skill-div{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 25px;
-    align-items: none;
-    justify-content: space-between;
-  }
-
-  .skill-h4{
-    font-size: 50px;
   }
 
   .lang{

@@ -7455,6 +7455,10 @@ header nav .mobile-menu-div, header nav #icon-nav, header nav #menu-icon {
           justify-content: center;
 }
 
+#about-h2 {
+  text-shadow: 2px 2px #3aafa9;
+}
+
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7492,39 +7496,6 @@ header nav .mobile-menu-div, header nav #icon-nav, header nav #menu-icon {
           flex-direction: column;
 }
 
-.flex-container3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.skill-h2 {
-  text-align: center;
-  color: #DCDCDC;
-  padding-top: 100px;
-}
-
-.skill-div {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border: 2px solid #000;
-}
-
-.skill-div .skill-h4 {
-  font-size: 50px;
-}
-
 h4.blog-title {
   font-family: 'Oswald', sans-serif;
 }
@@ -7533,12 +7504,6 @@ p.blog-p {
   font-family: 'Oswald', sans-serif;
   margin: 5% 0;
   padding: 0 3%;
-}
-
-.lang {
-  font-family: "Amatic SC", cursive;
-  font-size: 40px;
-  padding-bottom: 1%;
 }
 
 .flex-container4 {
@@ -7580,6 +7545,64 @@ p.blog-p {
 
 .footer-txt {
   text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.skills-container h2 {
+  padding-top: 30px;
+}
+
+.skills-container #skills-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px #FFF;
+}
+
+.skills-container .flex-container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills-container .skill-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 25px;
+}
+
+.skills-container .skill-div h4 {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.skills-container .skill-div ul {
+  -webkit-padding-start: 0px !important;
+          padding-inline-start: 0px !important;
+}
+
+.skills-container .lang {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  padding-bottom: 1%;
 }
 
 /* PROJECTS PAGE */
@@ -7756,9 +7779,9 @@ footer {
 }
 
 #proj-btn {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Raleway", sans-serif;
   border: 1px solid;
-  font-size: 27px;
+  font-size: 20px;
   margin: 30px 0 100px 0;
   width: 450px;
   -webkit-box-shadow: 3px 4px #DCDCDC;
@@ -8157,10 +8180,24 @@ MEDIA SCREEN: TABLETS
   footer h4 {
     font-size: 24px;
   }
-  .skill-h2 {
+  .skills-container h2 {
     padding-top: 30px;
   }
-  .skill-div {
+  .skills-container h4 {
+    font-size: 50px;
+  }
+  .skills-container .flex-container3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .skills-container .skill-div {
     width: 80%;
     margin-left: 10%;
     margin-top: 25px;
@@ -8170,9 +8207,6 @@ MEDIA SCREEN: TABLETS
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-  }
-  .skill-h4 {
-    font-size: 50px;
   }
   .lang {
     font-family: "Amatic SC", cursive;
